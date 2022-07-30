@@ -1,0 +1,14 @@
+body{
+    background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+    text-align: center;
+}
+.input{
+    text-transform: capitalize;
+}
+#comment-box,#post{
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
+}

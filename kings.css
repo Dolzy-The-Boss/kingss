@@ -1,0 +1,161 @@
+
+body{
+    padding:0px;
+    margin: 0px;
+    background-image: url("image/kings3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    text-align: left;
+}
+
+.menu ul{
+    display:inline-flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin:25px;
+    position:relative;
+}
+
+.menu ul li a{
+    padding: 8px;
+    color:yellow;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid#fff;
+    border-radius: 20px;
+    position: relative;
+}
+
+.search{
+    top: 24px;
+    right:20px;
+    position: absolute;
+    border: 2px solid yellow;
+ 
+ }
+ 
+ .search input {
+     font-size: 25px;
+     border: 1px solid #fff;
+     margin:8px;
+     padding: 8px;
+     border-radius: 10px;
+     list-style: upper-alpha;
+ }
+ 
+ .content h2{
+     font-size: 60px;
+     color: #fff;
+     margin-left:8px;
+     margin-top:4px;
+     text-align:left;
+      
+ }
+ 
+ .content b{
+     color:yellow;
+     font-size: 100px;
+     text-align: none;
+     
+ }
+ 
+ .content p{
+     text-align: left;
+     font-size: 20px;
+     margin-left: 60px;
+     margin-top: 20px;
+     color:rgb(194, 196, 189);
+     font-family: papyrus;
+ }
+ 
+  
+ 
+  .font{
+      right: 72px;
+      bottom: 45px;
+      position: absolute;
+  }
+ 
+  .font ul i{
+      list-style: none;
+      margin-top: 15px;
+      text-align: center;
+  }
+ 
+  .font ul a i{
+      font-size: 20px;
+      color:#fff;
+      border:3px solid yellow;
+      border-radius: 50px;
+      display: block;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+ 
+  .button {
+      position:relative;
+      top:120px;
+      left:135px;
+      transform:translate(-50px, -50px);
+  }
+ 
+  .btn{
+      border:3px solid yellow;
+      padding: 12px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+  }
+
+  .button {
+    position:relative;
+    top:120px;
+    left:135px;
+    transform:translate(-50px, -50px);
+}
+
+.btn{
+    border:3px solid yellow;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+ 
+  .menu ul li a:hover{
+      color: 800000;
+  }
+ 
+  .content h2:hover{
+      text-shadow:11px  11px 11px #fff;
+  }
+ 
+  .btn :hover{
+    background: #ffa500;
+} 
+ 
+  .btn :hover{
+      background: #ffa500;
+  }
+ 
+ 
+  .font ul a i:hover{
+     background: #ffa500;
+ 
+  }
+
+h1 {
+    color: yellow;
+    font-family: cooper;
+    font-size: 45px;
+    font-weight: 480;
+    text-transform: initial;
+    text-decoration: underline yellow;
+}
+
